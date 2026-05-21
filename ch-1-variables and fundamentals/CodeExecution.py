@@ -1,2 +1,6 @@
-print("Line 1")
-print("Line 2")
+name = "Manish Kumawat"
+Age = 19
+
+print(name)
+
+print(id(name))
