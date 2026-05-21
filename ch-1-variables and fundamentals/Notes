@@ -1,0 +1,30 @@
+How Python code executes
+-->Python code runs line by line (interpreter-based)
+
+-->No need to compile manually--interpreter handles it.
+
+-->Each line converted into bytecode,then executed by the Python Virtual Machine(PVM).
+
+-->Errors stop execution immediately.
+
+-->Example:
+          print('hello')
+          print('World')
+
+
+***Variables & Memory Concept
+
+-->Variable = name that stores a value in memory.
+
+-->In Python, Variables are used to store data that can be referenced and manipulated during program execution 
+
+-->Example:
+      x = 10
+      y = 'Hello'
+
+-->Python automatically decides the datatype.
+
+-->Vsriables are references(labels) pointing to memory objects.object
+
+-->Use id() to check memory location:
+       print(id(x))
