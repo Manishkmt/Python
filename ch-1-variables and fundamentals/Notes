@@ -28,3 +28,21 @@ How Python code executes
 
 -->Use id() to check memory location:
        print(id(x))
+
+
+***EXpression and Statement
+
+-->Expressions are the Combination of operators and operands
+
+--> x=10[Not Expression]
+--> x+3[Expression, 2 operands, 1 opretator and returns a value]
+
+
+
+-->A ststement on the other hand is an operation on a value, for example these are 2 statement:
+           name = "Manish"
+           print(name)
+
+
+*** Comments
+--> if we place # mark starting the line of python statement then it ignor that line
