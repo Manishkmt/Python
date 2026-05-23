@@ -32,4 +32,17 @@
 #*       print(name)
 
 
-#?Take diameter as input and claculate the area of a circle
+#?!Take diameter as input and claculate the area of a circle
+import math
+
+# Input diameter
+diameter = float(input("Enter diameter: "))
+
+# Calculate radius
+radius = diameter / 2
+
+# Calculate area
+area = math.pi * radius * radius
+
+# Output
+print("Area of circle =", area)
