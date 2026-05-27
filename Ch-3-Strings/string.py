@@ -35,11 +35,17 @@ str3 = '''Welcome in Python'''
   #?--> Each character in a string has a position(index) starting from 0.
 
   # Example:-
-  #       str2 = "Manish Kumawst"
+  #       str2 = "Manish Kumawat"
 
 length = len(str2)
+print(length)
 print(str2[0])
 
 print(str2[6])
 
 print(str2[7])
+
+
+
+
+
