@@ -1,0 +1,4 @@
+Live score = 78
+Total store = 100
+Score to win = 99
+
