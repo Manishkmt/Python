@@ -40,7 +40,43 @@
 
 # * "b" :- Binary mode
 
-file = open("ch-8-file handiling/manish.txt", "r")
-data = file.read()
-print(data)
+# ? read
+# file = open("ch-8-file handiling/manish.txt", "r")
+# data = file.read()
+# print(data)
+
+# ? wite
+# file = open("ch-8-file handiling/manish.txt", "w")
+# file.write("Manish")
+
+# ? append
+
+# file = open("ch-8-file handiling/manish.txt", "a")
+# file.write("Welcome")
+
+
+#! Reading files:-
+# ? (a) Read entire file:-
+
+# with keyword
+
+# with open("ch-8-file handiling/manish.txt", "r") as f:
+#   data = f.read()
+#   print("file data", data)
+
+
+#? (b) Read line by line:-
+
+# with open("ch-8-file handiling/manish.txt", "r") as f:
+#   data = f.readline()
+#   print(data)
+
+#? (c) Read all lines:-
+
+with open("ch-8-file handiling/manish.txt", "r") as f:
+  data = f.readlines()
+  print(data)
+
+
+
  
