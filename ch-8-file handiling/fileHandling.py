@@ -78,5 +78,23 @@ with open("ch-8-file handiling/manish.txt", "r") as f:
   print(data)
 
 
+# ! Automating File Tasks(copy, Rename, Delete):
+# ?      using Python modules:-
+# ?  Think of a module as a toolbox.
+# ?  Each module gives you tools(functions) thst you don't have to write again.
 
+
+# ! Copy file:-
+
+# import shutill
+# shutill.copy("demo.txt", "backup-demo.txt")
+
+
+# ! Rename file:-
+# import os
+# os.rename("demo.txt", "new_demo.txt")
+
+# ! Delete file:-
+# import os
+# os.remove("oldfile.txt")
  
