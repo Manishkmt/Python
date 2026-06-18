@@ -1,14 +1,33 @@
 
-# ! OOP oveview:-
-# ?                Object-Oriented Programming(OOP) helps us structure programs using real-world concepts like objects, classes, attributes, and behaviors. Instead of writting everything in one place, we organize code into objects - just like real life entities.
+# ! OOPS in Python:-
+# ?                 OOp is a programming style where we use :
 
-# Example:-
-#           A student, car, Bank account, Mobile phone - each can be represented as an object in Python.
+# class --> A class is a blueprint or template used to create objects. It defines the properties (variables) and behaviors (methods) that objects will have.
+
+#  object --> An object is an instance of a class. It is a real entity that contains data (attributes) and functions (methods) defined in the class.
+
+#  Attributes --> Attributes are variables that belong to a class or an object. They store the data or properties of an object.
+
+# Methods -->
 
 
-# ! What is OOP:-
-# ?               OOP is a programming style where we use:
+# ! Use of OOP:-
+# 
+# ? It makes code:-
+# usable
+# organized
+# Easy to maintain
+# Similar to real-world objects
 
-# class --> A class is a blueprint or user-defined data type in OOP that encapsulates data members and member functions into a single unit, from which objects are created.
 
-#  object--> 
+# ? class creation:-
+
+class vehicle:
+  # Attributes
+  color = "Black"
+  milage = 15
+  cost = 5000000
+
+# object creation
+car = vehicle()
+print(car.color)
