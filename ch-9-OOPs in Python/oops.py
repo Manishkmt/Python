@@ -68,12 +68,118 @@
 # ?                                   Methods define what an object can do.
 
 # Example:-
-class student:
-  def __init__(self, name):
-    self.name = name
+# class student:
+#   def __init__(self, name):
+#     self.name = name
 
-  def hello(self):
-    print("Hello", self.name)
+#   def hello(self):
+#     print("Hello", self.name)
 
-s1 = student("Manish Kumawat")
-s1.hello()
+# s1 = student("Manish Kumawat")
+# s1.hello()
+
+
+# ! Ststic methods:-
+# ?                  Static methods do not use self. They are used for utility-level functions.
+
+# Example:-
+# class student:
+#   @staticmethod
+#   def name():
+#     print("Manish Kumawat")
+
+# obj = student()
+# obj.name()
+
+
+# ! OOPS Concepts:-
+
+# ? Abstraction:-
+# *              Showing only essential details, hiding internal complexity.
+
+# Example:- you use instagram without knowing its backend code.
+
+# class payment:
+#   @staticmethod
+#   def pay():
+#     print("Payment successful")
+
+# obj = payment
+# obj.pay() 
+
+# ? Encapsulation:-
+# *                 Wrapping data + methods inside a single unit (class). Data is protected using private variables.
+
+# Example:-
+
+# class account:
+#   def __init__(self, bal):
+#    self.balance = bal # Private
+
+#   def show_balance(self):
+#     print("Balance:", self.balance)
+
+# obj = account(18900)
+# obj.show_balance()
+
+
+# ? Inheritance:-
+# *               When one class (child) gets the properties and methods of another class (parent). It avoid repeating code.
+
+#  Example:-  Child class uses everything the parent class already has.
+
+# parent class 
+# class vehicle:
+#   def start(self):
+#     print("Vehicle is starting")
+
+# # child class
+
+# class car(vehicle):
+#   def drive(self):
+#     print("car is moving now")
+
+# # child class 2
+
+# class bike(vehicle):
+#   def ride(self):
+#     print("bike is now riding")
+
+# # using the class
+# c = car()
+# c.start() # from parent
+
+# c.drive() # child specific
+
+# b = bike()
+
+# b.start() # from parent
+
+# b.ride() # child specific
+
+
+# ? Polymorphism:-
+# *                Same function name, but different behaviour in different classes.
+
+# * One function name --> many differnet behaviours depending on the object calling it.
+
+#  Example:- Different objects respond in their own unique way.
+
+class dog:
+  def sound(self):
+    print("Dog says : bark")
+
+class cat:
+  def sound(self):
+    print("cat says: meow")
+
+class cow:
+  def sound(self):
+    print("cow says : moo")
+
+#  Polymorphism in action
+
+animals = [dog(), cat(), cow()]
+
+for a in animals:
+  a.sound()
